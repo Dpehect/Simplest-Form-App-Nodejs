@@ -6,8 +6,8 @@ const ejs = require('ejs');
 
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true }));
-
-const url = 'mongodb+srv://Dpehect:yunusemre366@cluster0.olfqcop.mongodb.net/test';
+//Here,you should add your own mongodb database url.
+const url = '?';
 const dbName = 'mydb';
 
 app.get('/', (req, res) => {
